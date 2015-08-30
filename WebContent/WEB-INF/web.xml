@@ -5,6 +5,9 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>swaggertest</display-name>
 
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
 
 	<servlet>
 		<servlet-name>spring</servlet-name>
